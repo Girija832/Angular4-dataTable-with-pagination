@@ -1,0 +1,26 @@
+
+<div class="container pb-40">
+  <table class="table table-striped table-bordered">
+    <thead>
+    <tr>
+      <th>Image</th>
+      <th>ID</th>
+      <th>Name</th>
+      <th>Followers</th>
+      <th>Following</th>
+      <th>Location</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+      <td><img src="{{userAllDetails.avatar_url}}"></td>
+      <td>{{userAllDetails.id}}</td>
+      <td> {{userAllDetails.login}}</td>
+      <td>{{userAllDetails.followers}}</td>
+      <td>{{userAllDetails.following}}</td>
+      <td>{{userAllDetails.location}}</td>
+    </tr>
+    </tbody>
+  </table>
+  <button (click)="goBack()">Go Back</button>
+</div>

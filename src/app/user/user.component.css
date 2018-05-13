@@ -1,0 +1,18 @@
+th {
+  text-align: center;
+}
+img {
+  max-width: 40px;
+}
+.searchbox {
+  padding: 30px 0;
+  width: 100%;
+}
+.searchbox input {
+  width: 40%;
+}
+td:last-child {
+  width: 50%;
+  background-color: lightseagreen;
+  cursor: pointer;
+}
